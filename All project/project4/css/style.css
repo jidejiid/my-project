@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#main-doc{
+    display: flex;
+}
+#navbar{
+    border-right: 1px solid black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+}
+#section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 360px;
+    padding: 20px;
+}
+#navbar header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px 0 20px 30px;
+    font-size: x-large;
+    border-bottom: 1px solid black;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    line-height: 4;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+.reference{
+    border-bottom: unset;
+}
+.main-section header{
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: x-large;
+    text-transform: uppercase;
+}
+.main-section li{
+    line-height: 2;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 800px){
+    #main-doc{
+        display: flex;
+        flex-direction: column;
+    }
+    #navbar{
+        height: unset;
+        position: unset;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        overflow: unset;
+        white-space: unset;
+        border-right: unset;
+        width: 100%;
+        justify-content: center;
+    }
+    #navbar header{
+        border-bottom: unset;
+        width: 100%;
+    }
+    .nav-link{
+        border-bottom: unset;
+        line-height: unset;
+        padding: 5px; 
+    }
+    #section{
+       margin-left: unset; 
+       width: 100%;
+       position: unset;
+    }
+    .main-section{
+        
+    }
+}
+.col-1{
+    width: 8.333%;
+}
+.col-2{
+    width: 16.667%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.333%;
+}
+.col-5{
+    width: 41.667%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.332%;
+}
+.col-8{
+   width: 66.667%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.667%;
+}
+.col-12{
+    width: 100%;
+}
