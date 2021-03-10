@@ -1,0 +1,149 @@
+*{
+        padding: 10px; 
+}
+
+
+body{
+        background-color: black;
+}
+
+
+.row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+}
+
+
+.column{  
+        background: gray;
+        color: blanchedalmond;
+        width: 30rem;
+        height: 20rem;
+}
+
+
+.container{
+        padding-left: 0px;
+}
+
+
+.container input{
+        width: 25rem;
+        margin-bottom: 1rem;
+}
+
+
+#login{
+        background-color: orange;
+        color: white;
+        border: 1px solid orange;
+        padding: 1rem;
+        margin-top: 1rem;
+}
+#login:hover{
+        background-color: gray;
+}
+#slogin{
+        background-color: slateblue;
+        color: white;
+        border: 1px solid slateblue;
+        padding: 1rem;
+        margin-top: 1rem;
+}
+#slogin:hover{
+        background-color: white;
+        color: slateblue;
+}
+#tlogin{
+        background-color: lightgreen;
+        color: white;
+        border: 1px solid lightgreen;
+        padding: 1rem;
+        margin-top: 1rem;
+}
+#tlogin:hover{
+        background-color: white;
+        color: lightgreen;
+}
+
+
+span{
+        float: right;
+        padding: 1rem;
+        margin-top: 1rem;
+}
+
+
+#psw{
+        color: orange;
+}
+#psw:hover{
+        color: white;
+}
+#spsw{
+        color: slateblue;
+}
+#spsw:hover{
+        color: gray;
+}
+#tpsw{
+        color: lightgreen;
+}
+#tpsw:hover{
+        color: gray;
+}
+
+
+.column.second{
+        background: orange;
+        color: white;
+        width: 30rem;
+        height: 20rem; 
+        text-align: center;      
+}
+
+
+.container.two{
+        margin-top: 1rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        font-weight: 10;
+        font-size: larger;
+}
+
+
+#register{
+        text-decoration: none;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        color: white;
+        background-color: rgba(114, 7, 7, 0.925)  
+}
+#register:hover{
+        background-color: gray;
+        color: orange;
+}
+#sregister{
+        text-decoration: none;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        color: white;
+        background-color: rgba(56, 42, 95, 0.925)  
+}
+#sregister:hover{
+        background-color: white;
+        color: slateblue;
+}
+#tregister{
+        text-decoration: none;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        color: white;
+        background-color: rgba(17, 75, 15, 0.925)  
+}
+#tregister:hover{
+        background-color: white;
+        color: lightgreen;
+}
